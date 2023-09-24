@@ -13,7 +13,7 @@ namespace StoreDatabase.Entities
         public virtual Customer? Customer { get; set; } = null;
 
         public virtual ICollection<OrderLineItem>
-            OrderLineItems
+            OrderItems
         { get; set; } = new List<OrderLineItem>();
     }
 }

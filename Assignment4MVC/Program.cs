@@ -1,4 +1,5 @@
 ﻿
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using StoreDatabase.Data;
 
@@ -18,9 +19,10 @@ public class Program
                 Configuration.GetConnectionString("StoreDB"));
         });
 
-
-
-        builder.Services.AddControllersWithViews();
+        builder.Services.AddControllersWithViews().AddJsonOptions(jsonOptions =>
+        {
+            jsonOptions.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        });
 
         var app = builder.Build();
 

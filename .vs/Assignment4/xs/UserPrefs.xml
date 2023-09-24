@@ -1,7 +1,4 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -10,30 +7,41 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Assignment4API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment4API/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment4MVC/Views/PointOfSale/Index.cshtml">
     <Files>
-      <File FileName="Assignment4API/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="Assignment4API/Program.cs" Line="42" Column="1" />
+      <File FileName="Assignment4MVC/Views/Shared/_PizzaStoreLayout.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment4MVC/Models/OrderInProgress.cs" Line="1" Column="1" />
+      <File FileName="Assignment4MVC/Views/PointOfSale/Index.cshtml" Line="61" Column="63" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment4" expanded="True">
-            <Node name="Assignment4API">
-              <Node name="Properties" expanded="True" />
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="Assignment4API" expanded="True" />
             <Node name="Assignment4MVC" expanded="True">
-              <Node name="Properties" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="PointOfSale" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Products" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
-            <Node name="StoreDatabase" expanded="True" />
+            <Node name="StoreDatabase" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assignment4API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Assignment4MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
