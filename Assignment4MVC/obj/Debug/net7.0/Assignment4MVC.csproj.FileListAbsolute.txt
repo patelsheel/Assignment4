@@ -564,3 +564,5 @@
 /Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/obj/Debug/net7.0/Assignment4MVC.pdb
 /Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/obj/Debug/net7.0/Assignment4MVC.genruntimeconfig.cache
 /Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/obj/Debug/net7.0/ref/Assignment4MVC.dll
+/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/bin/Debug/net7.0/Castle.Core.dll
+/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Proxies.dll

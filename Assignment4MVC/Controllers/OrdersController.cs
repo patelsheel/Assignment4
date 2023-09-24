@@ -46,8 +46,24 @@ namespace Assignment4MVC.Controllers
         }
 
         // GET: Orders/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var customers = await _context.Customers.ToListAsync();
+            var listItems = new List<SelectListItem>();
+
+            foreach (var customer in customers)
+            {
+                var listItem = new SelectListItem
+                {
+                    Value = customer.CustomerID.ToString(),
+                    Text = $"{customer.FirstName} {customer.LastName}"
+                };
+
+                listItems.Add(listItem);
+            }
+
+            ViewBag.Customers = listItems; 
+
             return View();
         }
 

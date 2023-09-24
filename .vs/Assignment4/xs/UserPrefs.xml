@@ -1,5 +1,4 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.ItemProperties.Assignment4API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -11,30 +10,30 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assignment4API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment4API/Program.cs">
+    <Files>
+      <File FileName="Assignment4API/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Assignment4API/Program.cs" Line="42" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Assignment4" expanded="True" selected="True">
-            <Node name="Assignment4API" expanded="True">
-              <Node name="Controllers" expanded="True" />
+          <Node name="Assignment4" expanded="True">
+            <Node name="Assignment4API">
               <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="Assignment4MVC" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
-            <Node name="StoreDatabase" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-            </Node>
+            <Node name="StoreDatabase" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Assignment4MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

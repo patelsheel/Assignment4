@@ -12,7 +12,7 @@ namespace StoreDatabase.Entities
         public int Quantity { get; set; }
         public float Price { get; set; }
 
-        public Product? Product { get; set; } = null;
+        public virtual Product? Product { get; set; } = null;
 
         
     }

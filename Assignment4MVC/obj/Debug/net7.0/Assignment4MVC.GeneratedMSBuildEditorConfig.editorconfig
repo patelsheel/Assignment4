@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/Views/Customers/ChooseCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0Nob29zZUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/Views/Customers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/Views/Shared/_PizzaStoreLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19QaXp6YVN0b3JlTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sheelpatel/WebServerDev/Assignment 4/Assignment4/Assignment4MVC/Views/Shared/_ValidationScriptsPartial.cshtml]

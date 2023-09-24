@@ -10,7 +10,8 @@ namespace StoreDatabase.Entities
         public DateTime OrderDate { get; set; }
         public int CustomerID { get; set; }
 
-        public Customer? Customer { get; set; } = null;
+        public virtual Customer? Customer { get; set; } = null;
+
         public virtual ICollection<OrderLineItem>
             OrderLineItems
         { get; set; } = new List<OrderLineItem>();

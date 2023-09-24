@@ -13,7 +13,9 @@ public class Program
         // Add services to the container.
         builder.Services.AddDbContext<StoreContext>(optionsBuilder =>
         {
-            optionsBuilder.UseSqlServer(builder.Configuration.GetConnectionString("StoreDB"));
+            optionsBuilder.UseLazyLoadingProxies();
+            optionsBuilder.UseSqlServer(builder.
+                Configuration.GetConnectionString("StoreDB"));
         });
 
 
@@ -39,7 +41,7 @@ public class Program
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}");
+            pattern: "{controller=Customers}/{action=ChooseCustomer}");
 
         app.Run();
     }
