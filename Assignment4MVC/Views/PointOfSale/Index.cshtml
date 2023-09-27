@@ -58,9 +58,9 @@
                             <span class="m-1" style="font-weight:bold; text-decoration:underline">Price</span>
                         </div>
                     </div>
-                    @if (Model.Order != null && Model.Order.OrderLineItems.Any())
+                    @if (Model.Order != null && Model.Order.OrderItems.Any())
                     {
-                        var orderItems = Model.Order?.OrderLineItems.GroupBy(g => g.ProductID)
+                        var orderItems = Model.Order?.OrderItems.GroupBy(g => g.ProductID)
                             .Select(o => new OrderLineItem
                             {
                                 Quantity = o.Count(),

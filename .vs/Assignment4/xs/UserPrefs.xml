@@ -1,28 +1,21 @@
-﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingGIT">
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{AC363759-6B5B-4C3C-BB31-79C17EF2D304}" ItemName="Assignment4API" ConfigurationId="https" />
-        <StartupItem ItemId="{3AB7549D-C9F4-4BCE-B154-6568095EC1B7}" ItemName="Assignment4MVC" ConfigurationId="https" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assignment4MVC/Views/PointOfSale/Index.cshtml">
     <Files>
       <File FileName="Assignment4MVC/Views/Shared/_PizzaStoreLayout.cshtml" />
       <File FileName="Assignment4MVC/Models/OrderInProgress.cs" />
-      <File FileName="Assignment4MVC/Views/PointOfSale/Index.cshtml" Line="61" Column="63" />
+      <File FileName="Assignment4MVC/Views/PointOfSale/Index.cshtml" Line="70" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Assignment4" expanded="True">
+          <Node name="Assignment4">
             <Node name="Assignment4API" expanded="True" />
-            <Node name="Assignment4MVC" expanded="True">
+            <Node name="Assignment4MVC">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="PointOfSale" expanded="True">
+              <Node name="Views">
+                <Node name="PointOfSale">
                   <Node name="Index.cshtml" selected="True" />
                 </Node>
                 <Node name="Products" expanded="True" />
@@ -37,11 +30,18 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assignment4API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assignment4API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Assignment4MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{AC363759-6B5B-4C3C-BB31-79C17EF2D304}" ItemName="Assignment4API" ConfigurationId="https" />
+        <StartupItem ItemId="{3AB7549D-C9F4-4BCE-B154-6568095EC1B7}" ItemName="Assignment4MVC" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>
